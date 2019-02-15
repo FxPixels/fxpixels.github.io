@@ -66,7 +66,7 @@ class Main extends React.Component {
                     <Navbar renderHTMLtoPDF={this.renderHTMLtoPDF} />
                     <SiderBar {...resume} />
                     <Content {...resume} />
-                    // <Footer />
+                    
                 </div>
             </div>
         )

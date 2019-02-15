@@ -14,7 +14,7 @@ class Content extends React.Component {
     }
 
     getPublications() {
-        fetch('https://api.github.com/users/skyvow/repos')
+        fetch('https://api.github.com/users/fxpixels/repos')
             .then(response => response.json())
             .then(data => {
                 console.log(data)
@@ -27,7 +27,7 @@ class Content extends React.Component {
     }
 
     render () {
-        const { basics, work, project, education, awards, skills, interests, references } = this.props
+        const { basics, work, project, education, awards, skills, interests, references, ontherpublications } = this.props
         const { publications } = this.state
 
         return (
@@ -200,6 +200,20 @@ class Content extends React.Component {
                                             )
                                         })}
                                     </ul>
+
+                                    <h5><b>其他项目</b></h5>
+                                    <div className="other-publications">
+                                        {ontherpublications.map((n, i) => {
+                                            return (
+                                                <p>
+                                                <a href={n.href} target="_blank">{n.name}</a>：
+                                                <span>{n.summary}</span>
+                                                <small className="text-muted">{n.releaseDate}</small>
+                                                </p>
+                                            )
+                                        })}
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -229,35 +243,7 @@ class Content extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="detail" id="awards">
-                            <div className="icon">
-                                <i className="fs-lg icon-trophy"></i><span className="mobile-title">荣誉证书</span>
-                            </div>
-                            <div className="info">
-                                <h4 className="title text-uppercase">荣誉证书</h4>
-                                <div className="content">
-                                    <ul className="list-unstyled clear-margin">
-                                        {awards.map((n, i) => {
-                                            return (
-                                                <li key={i} className="card card-nested">
-                                                    <div className="content">
-                                                        <p className="clear-margin">
-                                                            <strong>{n.title} </strong>{n.awarder}
-                                                        </p>
-                                                        <p className="text-muted">
-                                                            <small>{n.date}</small>
-                                                        </p>
-                                                        <div className="mop-wrapper">
-                                                            <p>{n.summary}</p>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            )
-                                        })}
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                    
                         <div className="detail" id="interests">
                             <div className="icon">
                                 <i className="fs-lg icon-heart"></i><span className="mobile-title">兴趣爱好</span>
