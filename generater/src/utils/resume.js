@@ -9,7 +9,7 @@ export default {
         'picture': 'https://www.fxpixels.site/avatar.jpg',
         'email': 'Iampcfox@gmail.com',
         'phone': '18826492921',
-        'website': 'https://github.com/FxPixels',
+        'website': 'github.com/FxPixels',
         'summary': [
             '个人主攻 Web 前端，'+ (new Date().getFullYear() - 2018) +'年+前端开发经验，项目类型涉及：电子商务、SPA 应用（PC/Moblie）等等',
             '喜欢关注 Web 前端相关新技术（Vue、React...），对于新技术有很强的学习兴趣',

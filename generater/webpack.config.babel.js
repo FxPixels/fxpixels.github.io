@@ -23,7 +23,7 @@ const isProd = ENV === 'production' || ENV === 'prod'
 // 公共模块
 const vendor = Object.keys(pkg.dependencies)
 const jsSourcePath = path.join(__dirname, 'src')
-const buildPath = path.join(__dirname, 'build/demo')
+const buildPath = path.join(__dirname, 'build')
 const sourcePath = path.join(__dirname, 'src')
 const assetsPath = 'assets/'
 const port = process.env.PORT || 3000
