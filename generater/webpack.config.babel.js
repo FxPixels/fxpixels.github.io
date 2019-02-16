@@ -90,7 +90,7 @@ const config = {
     output: {
         path: buildPath,
         publicPath: '',
-        filename: assetsPath + 'app.js',
+        filename: assetsPath + '[name].js',
         chunkFilename: assetsPath + '[name].chunk.js',
     },
     module: {

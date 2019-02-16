@@ -77,7 +77,7 @@
     "start": "cross-env NODE_ENV=development webpack-dev-server",
     "lint": "eslint --fix --ext .js src",
     "dll": "webpack --config ./webpack.dll.config.babel.js",
-    "build": "cross-env NODE_ENV=development webpack"
+    "build": "cross-env NODE_ENV=production webpack"
   },
   "author": "skyvow",
   "license": "MIT"
