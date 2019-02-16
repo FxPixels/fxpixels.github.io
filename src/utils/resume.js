@@ -11,17 +11,36 @@ export default {
         'phone': '18826492921',
         'website': 'https://github.com/FxPixels',
         'summary': [
-            '个人主攻 Web 前端和 NodeJS 开发，3年+前端开发经验，参与或独立开发过多个核心项目，项目类型涉及：电子商务、教育服务、企业管理、SPA 应用（PC/Moblie）等等',
-            '喜欢关注 Web 前端相关新技术（React、Angular、Vue...），对于新技术有很强的学习兴趣',
-            '喜欢折腾造轮子，有一些简单的开源项目，不定时会更新 Github 小项目 5k+ Star（https://github.com/skyvow）',
-            '热爱前端这份工作，也热爱一切美好的事物，对于我来说，是一种责任、是一种快乐'
+            '个人主攻 Web 前端，'+ (new Date().getFullYear() - 2018) +'年+前端开发经验，项目类型涉及：电子商务、SPA 应用（PC/Moblie）等等',
+            '喜欢关注 Web 前端相关新技术（Vue、React...），对于新技术有很强的学习兴趣',
+            '喜欢参与开源项目开发，有一些简单的开源项目，不定时会更新 Github 小项目（https://github.com/FxPixels）',
+            '热爱前端这份工作，热爱实用且简约的设计，追求友好的交互设计'
         ],
         'location': '广东省 广州市',
         'profiles': [
             {
+                'name': 'Home',
+                'network': 'home',
+                'username': 'FxPixels',
+                'url': 'https://www.fxpixels.site'
+            },
+            {
+                'name': 'GitHub',
                 'network': 'github',
                 'username': 'FxPixels',
                 'url': 'https://github.com/FxPixels'
+            },
+            {
+                'name': 'Gitee',
+                'network': 'gitee',
+                'username': 'FxPixels',
+                'url': 'https://gitee.com/fxpixels'
+            },
+            {
+                'name': 'Blog',
+                'network': 'blog',
+                'username': 'FxPixels',
+                'url': 'https://blog.fxpixels.site'
             }
         ]
     },
@@ -117,9 +136,44 @@ export default {
         {
             'name': '树莓派3B+实时运行状态',
             // 'publisher': 'skyvow',
-            'releaseDate': '2016-10',
+            'releaseDate': '2019.01',
             'href': 'https://pi.fxpixels.site',
-            'summary': '主要显示CPU、内存、硬盘、IO等状态'
+            'summary': '主要显示树莓派3B+运行时CPU、内存、硬盘、IO等状态'
+        },
+        {
+            'name': 'Vue OS 练习',
+            // 'publisher': 'skyvow',
+            'releaseDate': '2018.12',
+            'href': 'https://vue.os.fxpixels.site',
+            'summary': '技术栈：Vue；一个仿Mac在线系统'
+        },
+        {
+            'name': 'Electron 练习',
+            // 'publisher': 'skyvow',
+            'releaseDate': '2018.05',
+            'href': 'https://gitee.com/fxpixels/Electron-React',
+            'summary': '技术栈：Electron + React；一个交易平台界面'
+        },
+        {
+            'name': 'Vue后台练习',
+            // 'publisher': 'skyvow',
+            'releaseDate': '2017.12',
+            'href': 'https://vue.backend.fxpixels.site',
+            'summary': '技术栈：Vue + ThinkPHP；一个前后端分离的后台'
+        },
+        {
+            'name': '仿简书网',
+            // 'publisher': 'skyvow',
+            'releaseDate': '2017.10',
+            'href': 'https://js.fxpixels.site',
+            'summary': '技术栈：Laravel；根据不同地区显示天气现象、温度、湿度、pm2.5等信息'
+        },
+        {
+            'name': '天气预报与环境信息',
+            // 'publisher': 'skyvow',
+            'releaseDate': '2017.09',
+            'href': 'https://env.fxpixels.site',
+            'summary': '技术栈：Vue + ThinkPHP；根据不同地区显示天气现象、温度、湿度、pm2.5等信息'
         },
     ],
     'skills': [
@@ -175,8 +229,8 @@ export default {
     ],
     'references': [
         {
-            'name': '奥勃鲁切夫',
-            'reference': '人能为自己心爱的工作贡献出全部力量、全部精力、全部知识，那么这项工作将完成得出色，收效也更大。'
+            'name': '鲁迅',
+            'reference': '愿中国青年都摆脱冷气，只是向上走，不必听自暴自弃者流的话。能做事的做事，能发声的发声。有一分热，发一分光。就令萤火一般，也可以在黑暗里发一点光，不必等候炬火。此后如竟没有炬火，我便是唯一的光…'
         }
     ]
 }

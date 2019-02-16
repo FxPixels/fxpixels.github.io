@@ -2,10 +2,10 @@
 @import 'theme';
 @import 'skyvow';
 
-.other-publications{
-	display: flex;
+.other-publications small{
+	padding: 0 10px;
 }
 
-.other-publications small{
+.profiles{
 	padding: 0 10px;
 }

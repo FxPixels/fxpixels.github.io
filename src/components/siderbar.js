@@ -33,10 +33,7 @@ class SiderBar extends React.Component {
                             <span className="icon"><i className="icon fs-lg icon-location"></i></span>
                             <span className="info">{basics.location}</span>
                         </div>
-                        <div className="detail">
-                            <span className="icon"><i className="icon fs-lg icon-phone"></i></span>
-                            <span className="info">{basics.phone}</span>
-                        </div>
+ 
                         <div className="detail">
                             <span className="icon"><i className="icon fs-lg icon-mail"></i></span>
                             <span className="info"><a className="link-disguise" href={`mailto:${basics.email}`}>{basics.email}</a></span>
@@ -45,12 +42,7 @@ class SiderBar extends React.Component {
                             <span className="icon"><i className="icon fs-lg icon-link"></i></span>
                             <span className="info"><a href={basics.website} target="_blank">{basics.website}</a></span>
                         </div>
-                        <div className="detail">
-                            <span className="icon" title="Languages I speak"><i className="icon fs-lg icon-language"></i></span>
-                            {languages.map((n, i) => {
-                                return <span key={i} className="info">{n.language}</span>
-                            })}
-                        </div>
+                        
                     </div>
                     <hr />
                     <div className="social-links text-center">
@@ -61,7 +53,7 @@ class SiderBar extends React.Component {
                                     'social-link': true,
                                     [`iconfont-${n.network}`]: n.network,
                                 })
-                                return <a key={i} className={cls} href={n.url} target="_blank"></a>
+                                return <span className="profiles"><a href={n.url} target="_blank">{n.name}</a></span>
                             })}
                         </div>
                     </div>
