@@ -77,7 +77,7 @@ export default {
             'website': '',
             'startDate': '2018.09',
             'endDate': '2018.12',
-            'summary': '微信小程序',
+            'summary': '微信小程序（项目在线上，微信搜“威码仕德”）',
             'highlights': [
                 '实现商品列表分类、搜索、 微信支付、优惠券、购物车、预约线下店铺、个人信息、订单列表、收货地址、 消费记录等一系列功能',
                 '实现分销商系统，包括提现、团队收益等',
@@ -146,6 +146,13 @@ export default {
             'releaseDate': '2018.12',
             'href': 'https://vue.os.fxpixels.site',
             'summary': '技术栈：Vue；一个仿Mac在线系统'
+        },
+        {
+            'name': '像素天气',
+            // 'publisher': 'skyvow',
+            'releaseDate': '2018.08',
+            'href': 'https://www.fxpixels.site/像素天气.jpeg',
+            'summary': '技术栈：微信小程序；一个天气小程序'
         },
         {
             'name': 'Electron 练习',
@@ -230,7 +237,7 @@ export default {
     'references': [
         {
             'name': '鲁迅',
-            'reference': '愿中国青年都摆脱冷气，只是向上走，不必听自暴自弃者流的话。能做事的做事，能发声的发声。有一分热，发一分光。就令萤火一般，也可以在黑暗里发一点光，不必等候炬火。此后如竟没有炬火，我便是唯一的光…'
+            'reference': '愿中国青年都摆脱冷气，只是向上走，不必听自暴自弃者流的话。能做事的做事，能发声的发声。有一分热，发一分光。就令萤火一般，也可以在黑暗里发一点光，不必等候炬火。此后如竟没有炬火，我便是唯一的光。'
         }
     ]
 }
