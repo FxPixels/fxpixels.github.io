@@ -77,7 +77,7 @@ export default {
             'website': 'https://gitee.com/fxpixels/beauty_mall__small_program',
             'startDate': '2018.09',
             'endDate': '2018.12',
-            'summary': '微信小程序（项目在线上，微信搜“威玛仕德”）',
+            'summary': '微信小程序（项目代码地址在码云，接口API失效，线上项目微信搜一搜“威玛仕德”）',
             'highlights': [
                 '实现商品列表分类、搜索、 微信支付、优惠券、购物车、预约线下店铺、个人信息、订单列表、收货地址、 消费记录等一系列功能',
                 '实现分销商系统，包括提现、团队收益等',
