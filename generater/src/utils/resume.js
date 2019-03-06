@@ -74,10 +74,10 @@ export default {
         {
             'organization': '威玛仕德商城小程序',
             'position': 'Web前端工程师',
-            'website': '',
+            'website': 'https://gitee.com/fxpixels/beauty_mall__small_program',
             'startDate': '2018.09',
             'endDate': '2018.12',
-            'summary': '微信小程序（项目在线上，微信搜“威码仕德”）',
+            'summary': '微信小程序（项目在线上，微信搜“威玛仕德”）',
             'highlights': [
                 '实现商品列表分类、搜索、 微信支付、优惠券、购物车、预约线下店铺、个人信息、订单列表、收货地址、 消费记录等一系列功能',
                 '实现分销商系统，包括提现、团队收益等',
@@ -90,7 +90,7 @@ export default {
             'website': '',
             'startDate': '2018.06',
             'endDate': '2018.08',
-            'summary': 'HUI + Laravel + CentOS',
+            'summary': 'HUI + Laravel + CentOS（项目地址已失效）',
             'highlights': [
                 '负责参与项目的移动端前端开发及维护，并负责部分后端业务开发，如；',
                 '实现用户信息的增删改查、用户任务、查看情行K线等功能',
@@ -102,7 +102,7 @@ export default {
             'website': '',
             'startDate': '2018.01',
             'endDate': '2018.05',
-            'summary': 'MUI + JQuery + Bootstrap + ThinkPHP + Windows',
+            'summary': 'MUI + JQuery + Bootstrap + ThinkPHP + Windows（项目地址已失效）',
             'highlights': [
                 '负责参与项目的移动端H5和PC端（主要是后台）前端开发及维护，并负责部分后端业务开发，如发布行情信息、导出交易记录等；',
                 '实现用户信息、用户任务、交易记录、K线历史等功能',
