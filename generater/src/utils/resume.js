@@ -155,6 +155,13 @@ export default {
             'summary': '技术栈：微信小程序；一个天气小程序'
         },
         {
+            'name': '2018年简历',
+            // 'publisher': 'skyvow',
+            'releaseDate': '2018.07',
+            'href': 'https://2018.resume.fxpixels.site',
+            'summary': '技术栈：Vue'
+        },
+        {
             'name': 'Electron 练习',
             // 'publisher': 'skyvow',
             'releaseDate': '2018.05',
