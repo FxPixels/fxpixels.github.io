@@ -51,22 +51,22 @@ export default {
             'website': '',
             'startDate': '2018.09',
             'endDate': '2018.12',
-            'summary': '公司主要外包商城，本人独立负责商城小程序的开发（基于 mpvue 和原生均有）：',
+            'summary': '公司主要外包在线商城相关业务，本人独立负责商城小程序的开发：',
             'highlights': [
-                '负责商城小程序的开发，交互设计及维护',
+                '技术栈为mpvue + vuex + wux + vant + iview+ echart，其功能主要有：商品列表分类、搜索、微信支付、优惠券、购物车等，及与实体店相关的预约线下店铺等功能，和分销商系统，包括提现提货、团队收益、虚拟仓库等。负责商城小程序的开发，交互设计及维护',
                 '参与原有商城项目的对接'
             ]
         },
         {
-            'company': '佛山市盈道科技有限公司',
+            'company': '佛山市盈道科技有限公司（又名：文道科技有限公司）',
             'position': 'Web 前端 & PHP工程师',
             'website': '',
             'startDate': '2018.01',
             'endDate': '2018.08',
-            'summary': '公司业务主要为外包商城、区块链相关业务等，本人主要职责如下：',
+            'summary': '公司业务主要为外包在线商城相关业务等，本人主要职责如下：',
             'highlights': [
-                '商城、区块链相关业务前后台 PC 端和移动端页面的前端开发（主要采用 HUI/Bootstrap），并负责部分后端功能开发，如登录注册、个人信息、 操作记录、用户任务等偏向用户信息的功能',
-                '独立开发区块链 PC 端软件（基于 Electron），并实现客户端后端逻辑，如用户登录、信息记录、用户详情等。',
+                '商城相关业务前后台PC端和移动端页面的前端开发，并负责部分后端功能开发，技术栈为JQuery + Bootstrap + HUI + echart + ThinkPHP + Laravel，功能有：登录注册、个人信息、操作记录、用户任务等偏向用户信息等等。',
+                '独立开发交易平台PC端软件，技术栈为Electron+JQuery，主要实现客户端后端逻辑，如用户登录、信息记录、用户详情等功能。',
             ]
         },
     ],
@@ -92,7 +92,7 @@ export default {
             'endDate': '2018.08',
             'summary': 'HUI + Laravel + CentOS（项目地址已失效）',
             'highlights': [
-                '负责参与项目的移动端前端开发及维护，并负责部分后端业务开发，如；',
+                '负责参与项目的移动端前端开发及维护，并负责部分后端业务开发，如用户登录，积分任务等',
                 '实现用户信息的增删改查、用户任务、查看情行K线等功能',
             ]
         },
@@ -102,7 +102,7 @@ export default {
             'website': '',
             'startDate': '2018.01',
             'endDate': '2018.05',
-            'summary': 'MUI + JQuery + Bootstrap + ThinkPHP + Windows（项目地址已失效）',
+            'summary': 'JQuery + Bootstrap + Echart + ThinkPHP + Windows（项目地址已失效）',
             'highlights': [
                 '负责参与项目的移动端H5和PC端（主要是后台）前端开发及维护，并负责部分后端业务开发，如发布行情信息、导出交易记录等；',
                 '实现用户信息、用户任务、交易记录、K线历史等功能',
@@ -152,7 +152,7 @@ export default {
             // 'publisher': 'skyvow',
             'releaseDate': '2018.08',
             'href': 'https://www.fxpixels.site/像素天气.jpeg',
-            'summary': '技术栈：微信小程序；一个天气小程序'
+            'summary': '技术栈：mpvue + echart；一个天气小程序'
         },
         {
             'name': '2018年简历',
@@ -230,7 +230,9 @@ export default {
                 '知乎',
                 '掘金',
                 '微信',
-                'QQ'
+                'QQ',
+                '跑步',
+                '乒乓球',
             ]
         },
         {
@@ -238,6 +240,7 @@ export default {
             'keywords': [
                 'Midi音乐',
                 '钢笔画',
+                '摄影',
             ]
         }
     ],
